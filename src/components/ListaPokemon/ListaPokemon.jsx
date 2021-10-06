@@ -10,9 +10,9 @@ const ListaPokemon = (props) => {
   }
 
   return (
-    <>
+    <div className="list">
       {paintCard()}
-    </>
+    </div>
     
   )
 };

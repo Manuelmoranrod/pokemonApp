@@ -48,7 +48,7 @@ const Home = () => {
   
 
   return (
-    <main>
+    <main className="home">
       <h1>PoKEAPI: hazte con todos</h1>
       <input type="text" name="name" onChange={handleChange}/>
       <ListaPokemon info={pokemon}/>

@@ -9,7 +9,7 @@ import Error from '../Error/Error';
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/new" component={Form} />
