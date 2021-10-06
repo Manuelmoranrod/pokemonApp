@@ -1,0 +1,23 @@
+.form-pok {      
+    display: flex;     
+    flex-direction: column;     
+    flex-wrap: wrap;     
+    align-items: center;     
+    justify-content: space-evenly;     
+    margin: 15px;  
+    background-color: rgb(233, 233, 225);
+    border-radius: 2em;
+    opacity: 0.8;
+}     
+
+.form-pok input {     
+    margin: 35px; 
+}   
+.form-pok select {     
+    margin: 20px; 
+}  
+.input-value {     
+    width: 200px;     
+    height: 30px; 
+    opacity: 1;
+}

@@ -10,7 +10,7 @@ const ListaPokemon = (props) => {
   }
 
   return (
-    <div className="list">
+    <div className="card_wrapper">
       {paintCard()}
     </div>
     

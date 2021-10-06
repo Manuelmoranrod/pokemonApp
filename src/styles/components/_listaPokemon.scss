@@ -1,5 +1,7 @@
-.list {
+.card_wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center
+    
 }
