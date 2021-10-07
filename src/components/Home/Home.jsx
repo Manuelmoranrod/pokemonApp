@@ -7,7 +7,7 @@ import { pokemonContext } from '../../context/pokemonContext'
 
 
 const Home = () => {
-  // estado para el input
+  // Estado para el input
   const [value, setValue] = useState("");
   // Estado que almacenara los pokemons
   const { pokemon, setPokemon} = useContext(pokemonContext);
